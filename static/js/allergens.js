@@ -14,6 +14,4 @@ const allergen = {
     Nuts : "Nuts",
     Gluten : "Gluten",
     Sulphites : "Sulphites",
-    Vegetarian : "Vegetarian",
-    Vegan : "Vegan"
 }
