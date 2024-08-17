@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     let select = document.getElementById('flavour');
 
-    icecream.forEach(flavour => {
+    sorted_flavours = icecream.sort( (a,b) => {
+        if (a.name < b.name) { return -1; }
+        if (a.name > b.name) { return 1; }
+        return 0;
+    });
+
+    sorted_flavours.forEach(flavour => {
         select.appendChild(new Option(flavour.name, flavour.name))
     });
 
