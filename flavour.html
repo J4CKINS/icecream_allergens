@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mayfair Icecream Allergen Chart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="static/css/global.css">
+    </head>
+    <body>
+        <div class="section center-align">
+            <h4 id="flavour-name" class="blue-text"></h4>
+            <p id="kcal-count"></p>
+            <div class="divider"></div>
+        </div>
+        <div class="section" id="suitable-for-section">
+            <p id="vegetarian">Suitable for Vegetarians: </p>
+            <p id="vegan">Suitable for Vegans: </p>
+            <div class="divider"></div>
+        </div>
+        <div class="section" id="contains-section">
+            <h5 class="green-text">Contains:</h5>
+            <ul></ul>
+        </div>
+        <div class="section" id="may-contain-section">
+            <h5 class="orange-text">May Contain:</h5>
+            <ul></ul>
+        </div>
+        <div class="section" id="does-not-contain-section">
+            <h5 class="red-text">Does not Contain:</h5>
+            <ul></ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="/static/js/allergens.js"></script>
+        <script src="/static/js/icecream.js"></script>
+        <script src="/static/js/flavour_data.js"></script>
+    </body>
+</html>
