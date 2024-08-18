@@ -165,7 +165,7 @@ const icecream = [
     },
     {
         name: "Banana Split",
-        continue: [
+        contains: [
             allergen.Soya,
             allergen.Milk,
             allergen.Nuts
